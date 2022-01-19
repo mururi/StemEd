@@ -1,0 +1,10 @@
+body{
+    height: auto;
+    background-image: url(images/chess.jpeg);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.about h1,h2{
+    text-align: center;
+    padding-top: 60px;
+}
