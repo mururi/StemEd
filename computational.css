@@ -1,30 +1,58 @@
-body{
-    height: auto;
-    background-image: url(images/chess.jpeg);
-    font-weight: 500;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
+body {
+  height: auto;
+  font-weight: 500;
+  color: white;
+  font-family: "Roboto Mono", monospace;
 }
-.about h1,h2{
-    text-align: center;
-    padding-top: 60px;
+.about {
+  background-image: url(images/chess.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  padding-left: 70px;
+padding-right: 70px;
+}
+.about h1,
+h2 {
+  text-align: center;
+  padding-top: 60px;
 }
 
-.headers{
-   display: flex; 
-   row-gap: 10px;
+.headers {
+  display: flex;
+  background-color: rgb(219, 215, 215);
+  height: 600px;
 }
-.headers h4{
-    text-align: center;
+.headers h4 {
+  text-align: center;
 }
-.cols2{
-    padding-top: 135px;
-    
+.headers h2{
+    color: rgb(85, 76, 76);
+    padding-left: 320px;
 }
-.col-md-7{
-    border: 2px ;
+.cols1{
+    padding-top: 255px;
+}
+.cols2 {
+  padding-top: 255px;
+  
+}
+.col-ms-7 {
+    border: 2px;
     border-radius: 15px;
     padding-bottom: 10px;
     background-color: rgb(228, 163, 65);
-    
+  }
+  .img{
+      padding-left: 160px;
+      padding-top: 80px;
+  }
+  .think h4{
+      padding-top: 60px;
+color: cadetblue;
+text-align: center;
+  }
+.think p{
+    color: rgb(55, 63, 63);
+    padding-left: 50px;
 }
