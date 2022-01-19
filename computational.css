@@ -10,7 +10,7 @@ body {
   background-position: center;
   height: 550px;
   padding-left: 70px;
-padding-right: 70px;
+  padding-right: 70px;
 }
 .about h1,
 h2 {
@@ -26,39 +26,39 @@ h2 {
 .headers h4 {
   text-align: center;
 }
-.headers h2{
-    color: rgb(85, 76, 76);
-    padding-left: 320px;
+.headers h2 {
+  color: rgb(85, 76, 76);
+  padding-left: 320px;
 }
-.cols1{
-    padding-top: 255px;
+.cols1 {
+  padding-top: 255px;
 }
 .cols2 {
   padding-top: 255px;
-  
 }
 .col-ms-7 {
-    border: 2px;
-    border-radius: 15px;
-    padding-bottom: 10px;
-    background-color: rgb(228, 163, 65);
-  }
-  .img{
-      padding-left: 160px;
-      padding-top: 80px;
-  }
-  .think h4,.algorithms h4{
-      padding-top: 60px;
-color: cadetblue;
-text-align: center;
-  }
-.think p,.algorithms{
-    color: rgb(55, 63, 63);
-    padding-left: 50px;
-
+  border: 2px;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  background-color: rgb(228, 163, 65);
+}
+.img {
+  padding-left: 160px;
+  padding-top: 80px;
+}
+.think h4,
+.algorithms h4 {
+  padding-top: 60px;
+  color: cadetblue;
+  text-align: center;
+}
+.think p,
+.algorithms {
+  color: rgb(55, 63, 63);
+  padding-left: 50px;
 }
 
-.think ul li{
-    color: black;
-    padding-left: 50px;
+.think ul li {
+  color: black;
+  padding-left: 50px;
 }
