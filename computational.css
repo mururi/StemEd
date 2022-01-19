@@ -47,12 +47,18 @@ h2 {
       padding-left: 160px;
       padding-top: 80px;
   }
-  .think h4{
+  .think h4,.algorithms h4{
       padding-top: 60px;
 color: cadetblue;
 text-align: center;
   }
-.think p{
+.think p,.algorithms{
     color: rgb(55, 63, 63);
+    padding-left: 50px;
+
+}
+
+.think ul li{
+    color: black;
     padding-left: 50px;
 }
