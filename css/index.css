@@ -10,3 +10,17 @@ h1 {
 h1 span {
   color: #EF5744;
 }
+
+#about-subjects {
+  background-color: #E9F5F3;
+}
+
+#about-subjects h3 {
+  color: black;
+  font-weight: 700;
+}
+
+#about-subjects h5 {
+  color: black;
+  font-weight: 500;
+}
