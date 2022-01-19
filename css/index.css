@@ -11,6 +11,13 @@ h1 span {
   color: #EF5744;
 }
 
+.buttons {
+  background-color: #EF5744;
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+}
+
 #about-subjects {
   background-color: #E9F5F3;
 }
@@ -23,4 +30,8 @@ h1 span {
 #about-subjects h5 {
   color: black;
   font-weight: 500;
+}
+
+h2 {
+  font-weight: 700;
 }
