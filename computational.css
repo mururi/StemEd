@@ -1,7 +1,7 @@
 body{
     height: auto;
     background-image: url(images/chess.jpeg);
-    
+    font-weight: 500;
     color: white;
     font-family: 'Roboto Mono', monospace;
 }
@@ -9,16 +9,22 @@ body{
     text-align: center;
     padding-top: 60px;
 }
+
 .headers{
    display: flex; 
+   row-gap: 10px;
+}
+.headers h4{
+    text-align: center;
 }
 .cols2{
     padding-top: 135px;
     
 }
 .col-md-7{
-    border: 2px solid white;
+    border: 2px ;
     border-radius: 15px;
     padding-bottom: 10px;
+    background-color: rgb(228, 163, 65);
     
 }
