@@ -2,3 +2,11 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+  font-weight: 800;
+  font-size: 75px;
+}
+h1 span {
+  color: #EF5744;
+}
