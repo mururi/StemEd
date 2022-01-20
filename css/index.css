@@ -3,6 +3,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/*navbar styling*/
 a.navbar-brand {
   font-weight: 800;
   color: black;
@@ -18,6 +19,7 @@ a.navbar-brand {
   padding-right: 50px;
 }
 
+/* hero section styling */
 h1 {
   font-weight: 800;
   font-size: 75px;
