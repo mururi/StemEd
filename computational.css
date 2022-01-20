@@ -1,10 +1,12 @@
 body {
   height: auto;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
   color: white;
   font-family: "Roboto Mono", monospace;
 }
-.about {
+.overlay {
+  background: rgb(0, 0, 0, .6);
   background-image: url(images/chess.jpeg);
   background-size: cover;
   background-position: center;
@@ -19,9 +21,11 @@ h2 {
 }
 
 .headers {
-  display: flex;
   background-color: rgb(219, 215, 215);
   height: 600px;
+  color: black;
+  padding-left: 30px;
+column-gap: 20px;
 }
 .headers h4 {
   text-align: center;
@@ -29,6 +33,24 @@ h2 {
 .headers h2 {
   color: rgb(85, 76, 76);
   padding-left: 320px;
+  row-gap: 15px;
+}
+.headers a{
+  text-decoration: none;
+}
+.col-md-9{
+ 
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(216, 160, 55);
+  transition: all.2s;
+}
+.col-md-9:hover{
+  transform: scale(1.05);
+  background-color:rgb(173, 96, 96) ;
+}
+.col-md-9 h3{
+  text-align: center;
 }
 .cols1 {
   padding-top: 255px;
@@ -45,20 +67,27 @@ h2 {
 .img {
   padding-left: 160px;
   padding-top: 80px;
+  
 }
 .think h4,
-.algorithms h4 {
+.algorithms h4,
+.decomposition h4,
+.pattern h4,
+.abstraction h4 {
   padding-top: 60px;
   color: cadetblue;
   text-align: center;
 }
 .think p,
-.algorithms {
+.algorithms,
+.decomposition,
+.pattern,
+.abstraction {
   color: rgb(55, 63, 63);
   padding-left: 50px;
 }
 
 .think ul li {
-  color: black;
+  color: rgb(96, 151, 147);
   padding-left: 50px;
 }
