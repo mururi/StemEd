@@ -105,3 +105,19 @@ h2 {
   bottom: 2.5rem;
   right: 2.5rem;
 }
+
+#contacts {
+  background: linear-gradient(#E9F5F3 50%, #fff 50%);
+}
+
+#contact-container {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  background-color: #fff;
+}
+
+#contact-information {
+  background-color: #71b7b5;
+  padding: 2rem;
+  box-sizing: border-box;
+}
