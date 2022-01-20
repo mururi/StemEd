@@ -3,6 +3,21 @@
   font-family: 'Raleway', sans-serif;
 }
 
+a.navbar-brand {
+  font-weight: 800;
+  color: black;
+}
+
+.nav-styling {
+  font-size: 24px;
+  font-weight: 700!important;
+  color: black!important;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
 h1 {
   font-weight: 800;
   font-size: 75px;
@@ -120,4 +135,13 @@ h2 {
   background-color: #71b7b5;
   padding: 2rem;
   box-sizing: border-box;
+}
+
+.material-icons.white {
+  color: #fff;
+}
+
+.form-button {
+  background-color: #71b7b5;
+  border-radius: 0;
 }
