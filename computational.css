@@ -1,4 +1,3 @@
-
 body {
   height: 100%;
   font-size: 20px;
@@ -7,7 +6,7 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 .overlay {
-  background: rgb(0, 0, 0, .6);
+  background: rgb(0, 0, 0, 0.6);
   background-image: url(images/chess.jpeg);
   background-size: cover;
   background-position: center;
@@ -22,36 +21,43 @@ h2 {
   padding-top: 60px;
 }
 
-.headers {
+.columns {
   background-color: rgb(219, 215, 215);
-  height: 600px;
+  height: 800px;
   color: black;
-  padding-left: 100px;
-column-gap: 20px;
+  padding-left: 500px;
+  column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
-.headers h4 {
+
+.algorithm h4 {
   text-align: center;
 }
-.headers h2 {
+.columns h2 {
   color: rgb(85, 76, 76);
   text-align: center;
-
+  padding-bottom: 30px;
 }
-.headers a{
+.columns a {
   text-decoration: none;
 }
-.col-md-9{
- 
+.algorithm {
+  text-align: center;
   border-radius: 20px;
   color: white;
-  background-color: rgb(216, 160, 55);
+  background-color: rgb(116, 150, 139);
   transition: all.2s;
+  width: 700px;
+  height: 90px;
+  
 }
-.col-md-9:hover{
+.algorithm:hover {
   transform: scale(1.05);
-  background-color:rgb(92, 71, 71) ;
+  background-color: rgb(105, 93, 93);
 }
-.col-md-9 h3{
+.algorithm h3 {
   text-align: center;
 }
 .cols1 {
@@ -64,12 +70,11 @@ column-gap: 20px;
   border: 2px;
   border-radius: 15px;
   padding-bottom: 10px;
-  background-color: rgb(228, 163, 65);
+  background-color: rgb(86, 175, 163);
 }
 .img {
-  padding-left: 160px;
+  padding-left: 260px;
   padding-top: 80px;
-  
 }
 .think h4,
 .algorithms h4,
