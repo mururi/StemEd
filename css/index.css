@@ -53,6 +53,7 @@ h1 span {
 
 h2 {
   font-weight: 700;
+  font-size: 48px;
 }
 
 #browse-by-categories {
@@ -129,6 +130,24 @@ h2 {
   background: linear-gradient(#E9F5F3 50%, #fff 50%);
 }
 
+#contacts h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#contacts h4 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#contact-container p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 #contact-container {
   box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 1rem;
@@ -138,11 +157,16 @@ h2 {
 #contact-information {
   background-color: #71b7b5;
   padding: 2rem;
-  box-sizing: border-box;
 }
 
 .material-icons.white {
   color: #fff;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 2px #BDC4CD;
 }
 
 .form-button {
