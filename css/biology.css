@@ -29,18 +29,15 @@ h2 {
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    bottom: 1.5%;
     border: solid 2px wheat;
     box-shadow: 3px 3px 3px 3px lightslategray;
-    top: 1%;
-    position: fixed;
+    top: 30%;
+    position: absolute;
     clear: both;
     resize: both;
     font-weight: bold;
     background-color: #E9F5F3;
-    height: 100%;
     overflow-x: hidden;
-    row-gap: 10px;
 }
 
 #sidebar>a {
@@ -56,9 +53,10 @@ h2 {
     border: solid 2px wheat;
     box-shadow: 3px 3px 3px 3px lightslategray;
     margin-left: 34%;
-    row-gap: 10px;
 }
 
-#content>p {
-    font-weight: 550;
+.coursehead {
+    background-color: burlywood;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
