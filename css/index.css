@@ -48,3 +48,60 @@ h2 {
 .topics {
   color: #71B7B5;
 }
+
+.carousel-body {
+  background-color: #71B7B5;
+  padding: 6rem 5rem 3rem 5rem;
+  position: relative;
+}
+
+.testimonial-img {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#left-control {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  transform: translateY(-50%)
+}
+
+#right-control {
+  width: 70px;
+  height: 70px;
+  background-color: #71B7B5;
+  border-radius: 50%;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 50%;
+  right: -35px;
+  transform: translateY(-50%)
+}
+
+#opening-quotes {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+}
+
+#closing-quotes {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2.5rem;
+}
