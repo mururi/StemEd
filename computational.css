@@ -5,6 +5,38 @@ body {
   color: white;
   font-family: "Roboto Mono", monospace;
 }
+/*navbar styling*/
+a.navbar-brand {
+  font-weight: 800;
+  color: black;
+}
+
+.nav-styling {
+  font-size: 24px;
+  font-weight: 700!important;
+  color: black!important;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+/* hero section styling */
+h1 {
+  font-weight: 800;
+  font-size: 75px;
+}
+h1 span {
+  color: #EF5744;
+}
+
+.buttons {
+  background-color: #EF5744;
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+}
+
 .overlay {
   background: rgb(0, 0, 0, 0.6);
   background-image: url(images/chess.jpeg);
@@ -14,6 +46,7 @@ body {
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 40px;
+  color: white;
 }
 .overlay h1,
 h2 {
@@ -73,8 +106,12 @@ h2 {
   background-color: rgb(86, 175, 163);
 }
 .img {
-  padding-left: 260px;
+  padding-left: 390px;
   padding-top: 80px;
+}
+.think{
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .think h4,
 .algorithms h4,
@@ -96,5 +133,6 @@ h2 {
 
 .think ul li {
   color: rgb(96, 151, 147);
-  padding-left: 50px;
+  text-align: center;
 }
+
